@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-file_name1 = "RF2_20241209_1137"
-file_name2 = "LF3_20241209_1137"
+file_name1 = "RF2_20241209_1045"
+file_name2 = "RF3_20241209_1045"
 
 
 def clean_csv(input_file, output_file, skiprows=11):
