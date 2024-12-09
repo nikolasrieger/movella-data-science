@@ -12,7 +12,7 @@ def merge_csv(input_file1, input_file2, output_file="merged.csv"):
     merged_df.to_csv(output_file, index=False)
     print(f"Merged file saved to: {output_file}")
 
-clean_csv('rf2.csv', 'rf2_clean.csv')
-clean_csv('rf3.csv', 'rf3_clean.csv')
+clean_csv('Data/rf2.csv', 'Data/temp_rf2_clean.csv')
+clean_csv('Data/rf3.csv', 'Data/temp_rf3_clean.csv')
 
-merge_csv('rf2_clean.csv', 'rf3_clean.csv', 'merged.csv')
+merge_csv('Data/temp_rf2_clean.csv', 'Data/temp_rf3_clean.csv', 'Data/temp_merged.csv')
